@@ -1,5 +1,5 @@
 # **HTM - Practice **
-![html-logo](Exercise/assets/img/logo.png)
+![html-logo](/assets/img/logo.png)
 ---
 
 ## <b>Что такое HTML </b>
@@ -7,3 +7,4 @@ HTML (Hypertext Markup Language) - это код, который использ�
 
   ---
   ## <b>Создание сайта </b>
+  Купил домен залил все туда  https://dobi.lol

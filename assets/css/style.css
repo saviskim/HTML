@@ -1,0 +1,52 @@
+body 
+
+{
+   
+    background-color: #c8d2cf; /* Цвет фона и путь к файлу */
+    color: #000000; /* Цвет текста */
+}
+.text { /* Выравниваем текст по центру */
+    text-align:  center;
+}
+
+.menu-main {
+  list-style: none;
+  margin: 5px 0 5px;  /* выравнивание меню */
+  padding: 25px 0 5px; /* Отступы меню */
+  text-align: center;  /* Выравниваем меню по центру */
+  background: #1a4035; /* Цвет фона меню */
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #060101;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #cbcbcb;}
+.menu-main a.current, .menu-main a:hover{color: #e6e4e2;} /* Цвет при наведении на пункт меню */
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #feb386;/* Цвет при наведении на пункт меню */
+  transition: .8s;
+}
